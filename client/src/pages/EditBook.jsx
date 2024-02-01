@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
-import { useParams } from 'react-router-dom'
+import { useParams, useNavigate } from 'react-router-dom'
 import BackButton from '../components/BackButton'
 import Spinner from '../components/Spinner'
-import { useNavigate } from 'react-router-dom'
 
 const EditBook = () => {
   const [title, setTitle] = useState('');
@@ -77,7 +76,7 @@ const EditBook = () => {
         </div>
         <div className="my-4">
           <label className="text-xl mr-4 text-gray-500">Publish Year</label>
-          <input type="text" 
+          <input type="number" 
                  className="border-2 border-gray-500 px-4 py-2 w-full"
                  value={publishYear} 
                  onChange={(e) => setPublishYear(e.target.value)}/>

@@ -57,7 +57,7 @@ const CreateBook = () => {
         </div>
         <div className="my-4">
           <label className="text-xl mr-4 text-gray-500">Publish Year</label>
-          <input type="text" 
+          <input type="number" 
                  className="border-2 border-gray-500 px-4 py-2 w-full"
                  value={publishYear} 
                  onChange={(e) => setPublishYear(e.target.value)}/>
