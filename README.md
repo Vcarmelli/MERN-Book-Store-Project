@@ -2,7 +2,7 @@
 <p>Uses MongoDB, Express, React, Node, and Tailwind CSS. An app that can perform the following functions: </p>
 <ul>
   <li>Add a book</li>
-  <li>Vies books as table or cards</li>
+  <li>View books as table or cards</li>
   <li>Edit book details</li>
   <li>Delete a book</li>
 </ul>
